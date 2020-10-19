@@ -46,35 +46,44 @@
 
   <body>
     <div id="page-orphanage">
-      <aside class="animate-right"></aside>
+      <aside class="animate-right sidebar">
+        <img src="./public/images/map-marker.svg" alt="Happy">
 
-      <main>
+        <footer>
+          <button onclick="history.back()">
+            <img src="./public/images/arrow-back.svg" alt="Voltar">
+          </button>
+        </footer>
+
+      </aside>
+
+      <main class="animate-appear with-sidebar"> 
         <div class="orphanages-details">
           <img src="./public/images/home.jpg" alt="Lar das meninas" />
 
           <div class="images">
-            <button class="active" type="button">
-              <img src="./public/images/home.jpg" alt="" />
+            <button onclick="selectImage(event)" class="active" type="button">
+              <img src="https://source.unsplash.com/random?id=1" alt="" />
             </button>
 
-            <button type="button">
-              <img src="./public/images/home.jpg" alt="" />
+            <button onclick="selectImage(event)" type="button">
+              <img src="https://source.unsplash.com/random?id=2" alt="" />
             </button>
 
-            <button type="button">
-              <img src="./public/images/home.jpg" alt="" />
+            <button onclick="selectImage(event)" type="button">
+              <img src="https://source.unsplash.com/random?id=3" alt="" />
             </button>
 
-            <button type="button">
-              <img src="./public/images/home.jpg" alt="" />
+            <button onclick="selectImage(event)" type="button">
+              <img src="https://source.unsplash.com/random?id=4" alt="" />
             </button>
 
-            <button type="button">
-              <img src="./public/images/home.jpg" alt="" />
+            <button onclick="selectImage(event)" type="button">
+              <img src="https://source.unsplash.com/random?id=5" alt="" />
             </button>
 
-            <button type="button">
-              <img src="./public/images/home.jpg" alt="" />
+            <button onclick="selectImage(event)" type="button">
+              <img src="https://source.unsplash.com/random?id=6" alt="" />
             </button>
           </div>
 
